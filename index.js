@@ -1,4 +1,4 @@
-let firstname = "Oscar";
+/*let firstname = "Oscar";
 let age = 23;
 let student = true;
 
@@ -51,4 +51,22 @@ document.getElementById("resetBtn").onclick = function(){
 document.getElementById("increaseBtn").onclick = function(){
     count += 1;
     document.getElementById("countLabel").innerHTML = count;
+}
+
+let age = 0
+;
+document.getElementById("myAge").onclick = function(){
+    age = document.getElementById("ageText").value;
+    age = Number(age);
+
+    if(age < 18){
+        document.getElementById("belong").innerHTML = "You are a minor";
+
+    }else if (age < 26){
+        document.getElementById("belong").innerHTML = "You are in the stage of youth";
+    } else if (age < 61){
+        document.getElementById("belong").innerHTML = "You are young";
+    }else{
+        document.getElementById("belong").innerHTML = "You are Senior Citizen";
+    }
 }
