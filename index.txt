@@ -1,5 +1,0 @@
-First line
-Second line
-created by main
-created by feature
-created by feature 2
